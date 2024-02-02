@@ -1,0 +1,75 @@
+**JavaScript:**
+
+1. **Type:**
+   - JavaScript is a programming language.
+   
+2. **Role:**
+   - Used for scripting and programming to make web pages interactive.
+   
+3. **Execution:**
+   - Executed by the browser's JavaScript engine.
+   
+4. **Examples of Usage:**
+   - Validating form inputs.
+   - Manipulating the Document Object Model (DOM) to dynamically update the content of a webpage.
+   - Handling user interactions, such as clicks and input events.
+   - Making asynchronous requests to a server (AJAX) to fetch or send data without refreshing the entire page.
+   - Implementing complex logic and algorithms on the client side.
+
+**HTML:**
+
+1. **Type:**
+   - HTML is a markup language.
+   
+2. **Role:**
+   - Used for structuring content and defining the layout of web pages.
+   
+3. **Execution:**
+   - Parsed and rendered by web browsers.
+   
+4. **Examples of Usage:**
+   - Defining the structure of a webpage using elements like `<html>`, `<head>`, `<body>`, `<header>`, `<footer>`, `<section>`, etc.
+   - Creating lists with `<ul>`, `<ol>`, and `<li>` tags.
+   - Inserting images with the `<img>` tag.
+   - Creating hyperlinks with the `<a>` tag.
+   - Defining tables with `<table>`, `<tr>`, `<td>`, and related tags.
+
+**Situations where you would use each:**
+
+- **Use JavaScript when:**
+   - You need to add interactivity or dynamic behavior to your web page.
+   - You want to respond to user actions, such as clicks, mouse movements, or keyboard inputs.
+   - Form validation or manipulation of form data is required.
+   - You need to fetch or send data to a server asynchronously without refreshing the entire page.
+   - Complex calculations or algorithms need to be performed on the client side.
+
+  Example:
+  ```html
+  <button onclick="alert('Hello, World!')">Click me</button>
+  ```
+
+- **Use HTML when:**
+   - You need to structure the content of your web page.
+   - You want to define the layout and organization of elements on the page.
+   - You are creating forms, tables, lists, images, links, and other structural elements.
+   - Providing semantic meaning to the content of the page.
+
+  Example:
+  ```html
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>My Web Page</title>
+    </head>
+    <body>
+      <h1>Welcome to My Web Page</h1>
+      <p>This is a paragraph of text.</p>
+      <img src="image.jpg" alt="An example image">
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
+    </body>
+  </html>
+  ```
+

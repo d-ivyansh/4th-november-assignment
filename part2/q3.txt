@@ -1,0 +1,45 @@
+JavaScript has five primitive data types, which are basic data types that are not objects and do not have methods. These primitive types are:
+
+1. **String:**
+   - Represents a sequence of characters and is enclosed in single (' '), double (" "), or backticks (\` \`) quotes.
+   - Examples:
+     ```javascript
+     let name = 'John';
+     let message = "Hello, World!";
+     let backticksExample = `This is a template literal`;
+     ```
+
+2. **Number:**
+   - Represents numeric values, including integers and floating-point numbers.
+   - Examples:
+     ```javascript
+     let age = 25;
+     let pi = 3.14;
+     ```
+
+3. **Boolean:**
+   - Represents a logical entity with two values: `true` or `false`.
+   - Used for logical operations and conditional expressions.
+   - Examples:
+     ```javascript
+     let isStudent = true;
+     let isLoggedIn = false;
+     ```
+
+4. **Undefined:**
+   - Represents a variable that has been declared but not assigned a value.
+   - Variables are automatically initialized to `undefined` when declared.
+   - Example:
+     ```javascript
+     let x;
+     console.log(x); // Outputs: undefined
+     ```
+
+5. **Null:**
+   - Represents the intentional absence of any object value.
+   - It is often used to indicate that a variable has no assigned value or that a function returns no valid object.
+   - Example:
+     ```javascript
+     let car = null;
+     ```
+

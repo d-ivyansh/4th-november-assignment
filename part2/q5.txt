@@ -1,0 +1,42 @@
+**Importance of Comments in JavaScript:**
+
+Comments in JavaScript serve as non-executable text that provides additional information about the code. They are crucial for enhancing code readability, maintainability, and collaboration among developers. Here are some key reasons why comments are important:
+
+1. **Documentation:** Comments document the purpose, functionality, and usage of code elements. This helps other developers (or even yourself in the future) understand how different parts of the code work.
+
+2. **Explanation of Logic:** Comments can explain complex or non-intuitive sections of code, making it easier for others to follow the logic and reasoning behind specific decisions.
+
+3. **Debugging and Troubleshooting:** Comments can be used to temporarily disable or "comment out" sections of code during debugging. This helps in identifying the source of errors or testing alternative implementations.
+
+4. **Collaboration:** In a team environment, comments facilitate collaboration by providing insights into the code for other team members. They help ensure that everyone is on the same page regarding the code's functionality.
+
+5. **Code Review:** Comments are valuable during code reviews. They enable reviewers to understand the thought process behind certain implementations and provide feedback effectively.
+
+**Examples of Single-Line and Multi-Line Comments:**
+
+1. **Single-Line Comments:**
+   - Single-line comments are used for short explanations or notes on a single line of code.
+
+   ```javascript
+   // This is a single-line comment
+   let age = 25;  // Variable representing the age
+   ```
+
+2. **Multi-Line Comments:**
+   - Multi-line comments are used for more extensive explanations, documentation, or commenting out large sections of code.
+
+   ```javascript
+   /*
+      This is a multi-line comment
+      It can span multiple lines
+      and is useful for providing detailed explanations.
+   */
+   let total = 0;
+   // The following block of code is temporarily commented out for debugging
+   /*
+   for (let i = 1; i <= 10; i++) {
+      total += i;
+   }
+   */
+   ```
+

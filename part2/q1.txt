@@ -1,0 +1,1 @@
+JavaScript is a versatile, high-level, and interpreted programming language primarily known for its use in web development. It was created by Netscape and was initially released in 1995. JavaScript is an essential technology for building interactive and dynamic web pages. It is commonly used alongside HTML and CSS to create feature-rich and responsive user interfaces.

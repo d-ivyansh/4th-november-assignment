@@ -1,0 +1,43 @@
+**Purpose of Declaring Variables in JavaScript:**
+Declaring variables in JavaScript is essential for storing and manipulating data within a program. Variables provide a way to name and reference values, making the code more readable, maintainable, and flexible. By declaring variables, you can:
+
+1. **Store Values:** Variables allow you to store and hold data, such as numbers, strings, or objects, during the execution of your program.
+
+2. **Reuse Values:** Variables enable you to reuse values throughout your code. Instead of hardcoding a value multiple times, you can use a variable to represent it, making it easier to update or modify.
+
+3. **Perform Operations:** Variables are crucial for performing operations and calculations. They store the results of computations, allowing you to work with dynamic and changing data.
+
+4. **Improve Readability:** Giving meaningful names to variables improves the readability of your code. It makes it easier for you and other developers to understand the purpose and context of each piece of data.
+
+**Declaring Variables using 'let' Keyword:**
+In JavaScript, you can declare variables using the `let` keyword. The `let` keyword is block-scoped, meaning it limits the variable's visibility to the block, statement, or expression where it is defined.
+
+**Syntax:**
+```javascript
+let variableName = initialValue;
+```
+
+- **`let`:** Keyword used for variable declaration.
+- **`variableName`:** The name you give to the variable.
+- **`initialValue`:** The optional initial value assigned to the variable.
+
+**Examples:**
+```javascript
+// Declaring a variable without an initial value
+let age;
+
+// Declaring a variable with an initial value
+let name = 'John';
+
+// Declaring multiple variables in a single statement
+let x = 10, y = 20, z = x + y;
+
+// Updating the value of a variable
+name = 'Jane';
+
+// Variables can hold various types of values
+let count = 5;
+let isDone = false;
+let price = 29.99;
+```
+
