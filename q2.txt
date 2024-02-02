@@ -1,0 +1,28 @@
+In JavaScript, operators are symbols that perform operations on variables and values. Operators can be categorized based on their functionality. 
+Here are the main categories of operators in JavaScript along with examples:
+
+Arithmetic Operators:
+Perform mathematical operations on numbers.{console.log(a + b);}
+
+Comparison Operators:
+Compare values and return a Boolean result.{console.log(x > y);}
+
+Logical Operators:
+Combine or manipulate Boolean values.{console.log(p && q);}
+
+Assignment Operators:
+Assign values to variables.{num += 5;}
+
+Unary Operators:
+Operate on a single operand.{console.log(++count);}
+
+Bitwise Operators:
+Perform operations at the binary level.{console.log(m & n);}
+
+Conditional (Ternary) Operator:
+A shorthand way of writing an if-else statement.
+{
+    let age = 20;
+    let status = (age >= 18) ? "Adult" : "Minor";
+    console.log(status);
+}

@@ -1,0 +1,61 @@
+In JavaScript, operators are categorized based on the number of operands they work with: unary, binary, and ternary.
+
+1. **Unary Operators:**
+   - Operate on a single operand.
+   - Example:
+    {
+     let x = 5;
+     let y = -x; // Unary minus operator
+     console.log(y); // -5
+    }
+
+   - Common unary operators include:
+     - Unary plus (`+`)
+     - Unary minus (`-`)
+     - Logical NOT (`!`)
+     - Increment (`++`)
+     - Decrement (`--`)
+     - Typeof (`typeof`)
+     - Void (`void`)
+
+2. **Binary Operators:**
+   - Operate on two operands.
+   - Example:
+   {
+     let a = 5;
+     let b = 3;
+     let sum = a + b; // Binary addition operator
+     console.log(sum); // 8
+     }
+
+   - Common binary operators include:
+     - Addition (`+`)
+     - Subtraction (`-`)
+     - Multiplication (`*`)
+     - Division (`/`)
+     - Modulus (`%`)
+     - Assignment (`=`)
+     - Equality (`==`, `===`)
+     - Inequality (`!=`, `!==`)
+     - Logical AND (`&&`)
+     - Logical OR (`||`)
+     - Bitwise AND (`&`)
+     - Bitwise OR (`|`)
+     - Bitwise XOR (`^`)
+     - Shift operators (`<<`, `>>`, `>>>`)
+
+3. **Ternary Operator:**
+   - Operates on three operands.
+   - It's a shorthand way of writing an `if-else` statement.
+   - Example:
+     {
+     let age = 20;
+     let status = (age >= 18) ? "Adult" : "Minor";
+     console.log(status); // Adult
+     }
+   - The ternary operator has the following syntax:
+    
+     {condition ? expression_if_true : expression_if_false;}
+
+   - It evaluates the condition. If true, it returns the value of the expression after `?`; otherwise, it returns the value after `:`.
+
